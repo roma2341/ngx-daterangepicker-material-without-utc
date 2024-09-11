@@ -1,6 +1,6 @@
 {
   "name": "ngx-daterangepicker-material-without-utc",
-  "version": "18.0.4",
+  "version": "18.0.5",
   "description": "Angular 18 datepicker without stupid UTC like in original library",
   "keywords": [
     "angular2",
