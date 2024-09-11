@@ -1,7 +1,7 @@
 {
   "name": "ngx-daterangepicker-material-without-utc",
-  "version": "6.0.4",
-  "description": "Angular 16 datepicker without stupid UTC like in original library",
+  "version": "18.0.4",
+  "description": "Angular 18 datepicker without stupid UTC like in original library",
   "keywords": [
     "angular2",
     "angular4",
@@ -24,7 +24,7 @@
     "dayjs",
     "picker"
   ],
-  "homepage": "https://github.com/fetrarij/ngx-daterangepicker-material",
+  "homepage": "https://github.com/roma2341/ngx-daterangepicker-material-without-utc",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -41,10 +41,10 @@
     "copy:schematics": "cpr schematics/dist dist/schematics && shx cp ./schematics/collection.json ./dist/schematics && shx cp ./schematics/ng-add/schema.json ./dist/schematics/ng-add",
     "postbuild": "npm run build:schematics && npm run copy:schematics"
   },
-  "author": "Fetrarijaona R.",
+  "author": "Fetrarijaona R., Roman Zinchuk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fetrarij/ngx-daterangepicker-material.git"
+    "url": "https://github.com/roma2341/ngx-daterangepicker-material-without-utc"
   },
   "peerDependencies": {
     "dayjs": "^1.11.4"
