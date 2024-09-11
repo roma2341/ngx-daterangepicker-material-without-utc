@@ -6,7 +6,7 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-import { chain, Rule, Tree } from '@angular-eslint/schematics';
+import { Rule, chain, Tree } from '@angular-devkit/schematics';
 import { addModuleImportToRootModule, getProjectFromWorkspace } from '@angular/cdk/schematics';
 import { getWorkspace } from '@schematics/angular/utility/workspace';
 import {Schema} from './schema';
